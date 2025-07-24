@@ -1,66 +1,36 @@
-تمام! 😎 أنا عدلت لك ملف index.html بالكامل وأضافت:
-
-✅ صورة منتج sprinkle.jpg
-
-✅ عنوان ووصف للمنتج
-
-✅ روابط للتواصل على واتساب وروبلوكس
-
-✅ تنسيق أساسي وربط بملف style.css
-
-
-
----
-
-🔧 الكود الجاهز لـ index.html:
-
-انسخه بالكامل واحفظه مكان الملف القديم:
-
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>Kaster Shop</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      direction: rtl;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f5f5f5;
-      padding: 20px;
-    }
-    img {
-      border-radius: 12px;
-      box-shadow: 0 0 10px #aaa;
-      margin: 15px 0;
-    }
-    h1, h2, h3 {
-      color: #2e7d32;
-    }
-    a {
-      color: #1565c0;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كاستر شوب</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🌿 أهلاً بك في متجر Kaster!</h1>
+    <header>
+        <img src="banner.jpg" alt="كاستر شوب بانر" class="banner">
+        <h1>أهلاً بيك في كاستر شوب</h1>
+        <p>بيع منتجاتك داخل خريطة Grow a Garden على روبلوكس!</p>
+    </header>
+    <section class="contact">
+        <h2>تواصل معنا</h2>
+        <ul>
+            <li>روبلكس: <a href="https://www.roblox.com/users/5707731742/profile" target="_blank">Bot_000955</a></li>
+            <li>واتساب: <a href="https://wa.me/201228381909" target="_blank">01228381909</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>© 2025 كاستر شوب</p>
+    </footer>
 
-  <h2>🧪 منتج Master Sprinkle</h2>
-  <img src="sprinkle.jpg" alt="Master Sprinkle" width="300">
-  <p>أفضل منتج في لعبة Grow a Garden على Roblox!  
-    يزيد من سرعة نمو النباتات ويوفر وقتك وجهدك.
-  </p>
+<section class="products">
+    <h2>المنتجات المتاحة</h2>
+    <div class="product">
+        <img src="sprinkler.jpg" alt="Master Sprinkler">
+        <h3>Master Sprinkler</h3>
+        <p>السعر: 0.50 دولار</p>
+    </div>
+</section>
 
-  <h3>📞 اطلب الآن عبر:</h3>
-  <ul style="list-style: none; padding: 0;">
-    <li>💬 واتساب: <a href="https://wa.me/201228381909" target="_blank">01228381909</a></li>
-    <li>🎮 روبلوكس: <a href="https://www.roblox.com/users/5441652374/profile" target="_blank">Bot_000955</a></li>
-  </ul>
 </body>
 </html>
-
