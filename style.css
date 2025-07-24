@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+.banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.contact {
+    margin: 30px;
+}
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+.contact li {
+    margin: 10px 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
